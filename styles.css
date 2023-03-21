@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-  * {
+ * {
         margin: 0;
         padding: 0;
       }
@@ -10,45 +10,70 @@
         padding: 30px;
         background-color: #011e29;
         color: white;
+        text-align: center;
       }
 
       .grid-container {
-        border: 2px solid black;
         height: 1000px;
         padding: 20px;
-        display: flex;
+        width: 100%;
+        display: inline-block;
+        position: relative;
       }
-      .grid-item {
-        width: 100px;
-        padding: 40px;
-        height: 100px;
-        margin: 2px;
-        display: flex;
-      }
-      #col1 {
-        height: 103px;
-        width: 230px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+      .latest-News-Articles {
+        height: 131px;
+        width: 263px;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
         background-color: white;
         border-radius: 10%;
       }
-      #col2 {
-        display: flex;
+
+      .latest-News-Articles ul {
+        margin-left: 30px;
+      }
+      .heading1 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+      }
+      .heading2 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+
+      .main-articles {
+        display: inline-block;
+        padding: 20px;
         width: 543px;
-        flex-direction: column;
         height: 150px;
+        position: absolute;
+        top: 20px;
+        left: 400px;
         background-color: white;
         border-radius: 20px;
       }
+      .main-articles h2 {
+        text-align: center;
+      }
 
-      #col3 {
-        display: flex;
+      .pictorial-news-section {
+        display: inline-block;
+        padding: 40px;
         height: 425px;
-        width: 220px;
-        flex-direction: column;
-        border-radius: 20px;
+        width: 245px;
+        position: absolute;
+        display: flex;
+        top: 20px;
         gap: 10px;
+        align-items: center;
+        flex-direction: column;
+        left: 1000px;
+        border-radius: 20px;
         background-color: white;
+      }
+      .pictorial-news-section img {
+        height: 200px;
+        width: 200px;
       }
