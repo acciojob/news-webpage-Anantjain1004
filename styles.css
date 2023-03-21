@@ -20,7 +20,7 @@
         display: inline-block;
         position: relative;
       }
-      .latest-News-Articles {
+      ..latest-news-section {
         height: 131px;
         width: 263px;
         display: inline-block;
@@ -76,4 +76,8 @@
       .pictorial-news-section img {
         height: 200px;
         width: 200px;
+      }
+      .heading3 {
+        margin-top: 10px;
+        margin-bottom: 15px;
       }
